@@ -1,0 +1,19 @@
+header {
+    font-size: 40px;
+    font-weight: bolder;
+    background-color:  rgb(58, 58, 58);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+aside {
+    height: 100%; 
+    position: fixed;
+    background-color: rgb(247, 245, 245);
+}
+
+h3 {
+    font-size: 18px;
+    padding: 20px 0px 10px 5px;  
+}
