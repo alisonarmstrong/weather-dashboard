@@ -19,10 +19,10 @@
 </header>
 
 <aside>
-  <div class="col-md-3" id="sideNav">
+  <div class="col-md-4" id="sideNav">
     <h3>Search:</h3>
     <input type="text" placeholder="City Name" id="cityInput">
-    <button class="btn" id="searchButton"></button>
+    <div> <button class="btn btn-primary btn-sm" id="searchButton">Search</button></div>
     <p>Recent:</p>
     <ul></ul>
 </div>
@@ -32,17 +32,22 @@
   <div class="card">
     <div class="currentWeather"></div>
   </div>
+
   <h2>5-Day Forecast</h2>
-  <div class="card-deck col s12 m">
-    <div id="day1"></div>
-    <div id="day2"></div>
-    <div id="day3"></div>
-    <div id="day4"></div>
-    <div id="day5"></div>
+  <div class="flex-container">
+    <div class="card-deck col s12 m">
+      <div id="day1"></div>
+      <div id="day2"></div>
+      <div id="day3"></div>
+      <div id="day4"></div>
+      <div id="day5"></div>
+    </div>
   </div>
 </main>
 
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
 <script src="script.js"></script>
 </body>
 
